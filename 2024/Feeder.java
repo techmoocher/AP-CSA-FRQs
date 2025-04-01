@@ -1,11 +1,9 @@
 /*
-*
 *    Created by: {techmoocher}
-*    Date: Arpil 1, 2024
-*
+*    Date: Arpil 1, 2025
 */
 
-/* Question 1 FRQ */
+/* Question 1 */
 
 public class Feeder
 {
