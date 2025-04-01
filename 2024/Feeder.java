@@ -1,3 +1,12 @@
+/*
+*
+*    Created by: {techmoocher}
+*    Date: Arpil 1, 2024
+*
+*/
+
+/* Question 1 FRQ */
+
 public class Feeder
 {
     private int currentFood;
