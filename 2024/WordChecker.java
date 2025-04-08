@@ -1,3 +1,10 @@
+/*
+*    Created by: {techmoocher}
+*    Date: Arpil 1, 2025
+*/
+
+/* Question 3 */
+
 public class WordChecker {
     private ArrayList<String> wordList;
     
@@ -10,5 +17,15 @@ public class WordChecker {
             }
         }
         return true;
+    }
+    
+    public ArrayList<String> createList(String target) {
+        ArrayList<String> results = new ArrayList<String>();
+        
+        for (String item : wordList) {
+            if (item.indexOf(target) == 0) {
+                results.add(item.substring(target.length()));
+            }
+        }
     }
 }
