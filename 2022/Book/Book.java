@@ -1,3 +1,10 @@
+/*
+*    Created by: {techmoocher}
+*    Date: Arpil 11, 2025
+*/
+
+/* Question 2 */
+
 public class Book {
     private String title;
     private double price;
