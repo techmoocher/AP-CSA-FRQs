@@ -20,3 +20,26 @@ public class Book {
         return title + "-" + price;
     }
 }
+
+class Textbook extends Book {
+    private int edition;
+    
+    public Textbook(String textbookTitle, double textbookPrice, int version) {
+        super(textbookTitle, textbookPrice);
+        edition = version;
+    }
+    public int getEdition() {
+        return edition;
+    }
+    
+    public String getBookInfo() {
+        return super.getBookInfo + "-" + edition;
+    }
+    
+    public boolean canSubstituteFor(Textbook obj) {
+        if (obj.getTitle() == this.getTitle() && edition >= obj.getEdition()) {
+            return true;
+        }
+        return false;
+    }
+}
