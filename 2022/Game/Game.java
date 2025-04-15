@@ -5,6 +5,7 @@
 
 /* Question 1 */
 
+/* Implementation for Level class is not shown */
 public class Game {
     private Level levelOne;
     private Level levelTwo;
