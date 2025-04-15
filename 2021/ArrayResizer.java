@@ -4,6 +4,7 @@
 */
 
 /* Question 4 */
+
 public class ArrayResizer {
     public static int numNonZeroRows(int[][] array2D) {
         /* implementation not shown */
