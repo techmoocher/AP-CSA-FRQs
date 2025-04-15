@@ -5,6 +5,7 @@
 
 /* Question 3 */
 
+/* Implementation for Review class is not shown */
 public class ReviewAnalysis {
     private Review[] allReviews;
     
