@@ -11,7 +11,12 @@ public class ArrayResizer {
     }
     
     public static boolean isNonZeroRow(int[][] array2D, int r) {
-        
+        for (int col = 0; col < array2D[0].length; col++) {
+            if (int[r][col] == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static int[][] resize(int[][] array2D) {
