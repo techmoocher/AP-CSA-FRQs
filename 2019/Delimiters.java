@@ -25,6 +25,22 @@ public class Delimiters {
     }
     
     public boolean isBalanced(ArrayList<String> delimiters) {
-        
+        int openCount = 0;
+        int closeCount = 0;
+        for (String item : delimiters) {
+            if (item.equals(openDel)) {
+                openCount++;
+            }
+            else if (item.equals(closeDel)) {
+                closeDel++;
+            }
+            if (openCount < closeCount) {
+                return false;
+            }
+        }
+        if (openCount == closeCount) {
+            return true;
+        }
+        return false;
     }
 }
