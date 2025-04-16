@@ -25,4 +25,10 @@ public class APCalendar {
         }
         return count;
     }
+
+	public static int dayOfWeek(int month, int day, int year) {
+        int start = firstDayOfYear(year);
+        int destination = dayOfYear(month, day, year);
+        return (start + (destination - 1)) % 7
+    }
 }
