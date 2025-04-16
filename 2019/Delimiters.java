@@ -15,7 +15,13 @@ public class Delimiters {
     }
     
     public ArrayList<String> getDelimitersList(String[] tokens) {
-        
+        ArrayList<String> delimitersList = new ArrayList<String>();
+        for (String item : tokens) {
+            if (item.equals(openDel) || item.equals(closeDel)) {
+                delimitersList.add(item);
+            }
+        }
+        return delimitersList;
     }
     
     public boolean isBalanced(ArrayList<String> delimiters) {
