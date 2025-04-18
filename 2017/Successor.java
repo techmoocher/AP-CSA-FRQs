@@ -4,8 +4,8 @@
 */
 
 /* Question 4 */
-/* Implementation for Positition class is not shown */
 
+/* Implementation for Positition class is not shown */
 public class Successor {
 
 }
