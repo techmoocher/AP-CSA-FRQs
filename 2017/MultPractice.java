@@ -5,6 +5,7 @@
 
 /* Question 2 */
 
+/* Implementation for StudyPractice interface is not shown */
 public class MultPractice implements StudyPractice {
     private int firstInt, secondInt;
     
