@@ -5,7 +5,7 @@
 
 /* Question 1 */
 
-public class RandomLetterChooser {
+public class RandomLetterChooser extends RandomStringChooser {
     public RandomLetterChooser(String str) {
         super(getSingleLetters(str));
     }
