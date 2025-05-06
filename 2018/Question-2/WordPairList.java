@@ -6,7 +6,6 @@
 /* Question 2 */
 
 /* Implementation for WordPair class is not shown */
-
 public class WordPairList {
     private ArrayList<WordPair> allPairs;
     
